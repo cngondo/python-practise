@@ -11,12 +11,13 @@ class Egg:
 def main():
     fried = Egg()
     scrambled = Egg("scrambled")
+    prime()
     print(fried.whatKind())
 
 def prime():
     eatable = Egg()
     print(eatable.whatKind())
 
-main()
-prime()
-# if __name__ == "__main__": prime()
+if __name__ == "__main__": prime()
+# ln 21 allows us to call the main function that contains code that enables us to
+# run modules and functions even before they have been definesd in the code
