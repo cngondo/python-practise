@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 # Simple fibonacci
- class Fibonacci():
+class Fibonacci():
     #  The constructor
-     def _init_(self, a, b):
+    def _init_(self, a, b):
          self.a = a
          self.b = b
 
